@@ -68,6 +68,7 @@ h2 {
     padding-bottom: 0.5rem;
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: #f39c12; /* Highlight color */
 }
 
 article {
@@ -80,3 +81,40 @@ article {
 article h3 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
+    color: #f39c12; /* Highlight color */
+}
+
+article ul {
+    color: #ddd;
+}
+
+/* Skills Section */
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style-type: none;
+}
+
+#projects ul li {
+    background-color: #555;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #f39c12; /* Highlight color */
+}
+
+#projects ul li a {
+    color: #f39c12; /* Highlight color */
+    text-decoration: none;
+}
+
+#projects ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact ul
