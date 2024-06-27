@@ -7,6 +7,12 @@ body {
     color: #333;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -30,7 +36,7 @@ header nav a:hover {
 }
 
 main {
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 section {
@@ -40,6 +46,10 @@ section {
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
+}
+
+article {
+    margin-bottom: 2rem;
 }
 
 ul {
@@ -59,7 +69,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
